@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
         //ProductoSeeder::class,
 
         ClientesSeeder::class,
-        Productos2Seeder::class,
+        ProductosSeeder::class,
         PedidosSeeder::class,
         Pedidos_productoSeeder::class,
 

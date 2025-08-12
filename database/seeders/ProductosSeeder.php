@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Producto2;
+use App\Models\Producto;
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
-class Productos2Seeder extends Seeder
+class ProductosSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,19 +15,19 @@ class Productos2Seeder extends Seeder
     {
         //
 
-        Producto2::create([
+        Producto::create([
             'nombre' => 'Producto A',
             'precio' => 150.00,
             'stock' => 30,
         ]);
 
-        Producto2::create([
+        Producto::create([
             'nombre' => 'Producto B',
             'precio' => 250.00,
             'stock' => 20,
         ]);
 
-        Producto2::create([
+        Producto::create([
             'nombre' => 'Producto C',
             'precio' => 350.00,
             'stock' => 40,

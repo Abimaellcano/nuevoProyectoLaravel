@@ -4,6 +4,8 @@
             <th>id</th>
             <th>Cliente ID</th>
             <th>Fecha Pedido</th>
+            <th>Total</th>
+
         </tr>
     </thead>
     <tbody>
