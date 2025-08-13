@@ -10,10 +10,10 @@ class Pedido_producto extends Model
 
    public function pedido()
    {
-    return $this->belongsTo(Pedidos::class);
+    return $this->belongsTo(Pedido::class);
    }
 
    public function producto(){
-    return $this->belongsTo(Productos::class);
+    return $this->belongsTo(Producto::class);
    }
 }
