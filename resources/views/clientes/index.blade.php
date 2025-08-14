@@ -108,24 +108,21 @@
 
 
 
-
-
-
                             <!-- Modal footer -->
                             <div class="flex justify-end pt-4 border-t border-gray-200 dark:border-gray-600 space-x-2">
-                                <button type="button" data-modal-hide="crearProductoModal"
+                                <button type="button" data-modal-hide="crearClienteModal"
                                     onclick="document.getElementById('formCrearProducto').reset();"
                                     class="bg-gray-200 px-4 py-2 rounded hover:bg-gray-300 dark:bg-gray-600 dark:text-white">
                                     Cancelar
                                 </button>
-                                <button type="submit" id="btnGuardarProducto"
+                                <button type="submit" id="btnGuardarCliente"
                                     class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 flex items-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
 
                                     <!-- Texto normal -->
                                     <span id="textGuardar">Guardar</span>
 
                                     <!-- Texto con animación de carga (oculto por defecto) -->
-                                    <span id="textEnviando" class="hidden flex items-center space-x-2">
+                                    <span id="textEnviando" class="hidden items-center space-x-2">
                                         <svg aria-hidden="true" class="w-4 h-4 text-white animate-spin fill-white"
                                             viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
